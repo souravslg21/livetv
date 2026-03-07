@@ -24,7 +24,12 @@ const CHANNELS = [
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     },
-
+    {
+        name: "star sports live",
+        url: "https://m.mxonlive.xyz/live/16559/roar/edge2/star-sports-1.m3u8",
+        icon: "fas fa-cricket-bat-ball",
+        category: "Sports"
+    },
     {
         name: "Jalsha Movies",
         url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
@@ -32,7 +37,7 @@ const CHANNELS = [
         category: "Movies"
     },
 
-     {
+    {
         name: "Star Gold 2 HD",
         url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1155",
         icon: "fas fa-tv",
