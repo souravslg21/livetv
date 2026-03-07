@@ -30,6 +30,13 @@ const CHANNELS = [
         url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
         icon: "fas fa-tv",
         category: "Movies"
+    },
+
+     {
+        name: "Star Gold 2 HD",
+        url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1155",
+        icon: "fas fa-tv",
+        category: "Movies"
     }
 ];
 
