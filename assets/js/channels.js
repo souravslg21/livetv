@@ -1,7 +1,7 @@
 const CHANNELS = [
     {
         name: "star sports live",
-        url: "https://starsportshindiii.pages.dev/index.m3u8",
+        url: "http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     },
@@ -32,7 +32,7 @@ const CHANNELS = [
     },
     {
         name: "star sports 2",
-        url: "http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
+        url: "https://starsportshindiii.pages.dev/index.m3u8",
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     },
