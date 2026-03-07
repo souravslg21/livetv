@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
     window.shareSite = () => {
         if (navigator.share) {
             navigator.share({
-                title: 'Clarity TV - Premium Live Streaming',
-                text: 'Watch live sports and the T20 World Cup in HD on Clarity TV!',
+                title: 'SrV Creation IPTV - Premium Live Streaming',
+                text: 'Watch live sports and the T20 World Cup in HD on SrV Creation IPTV!',
                 url: window.location.href
             }).catch(console.error);
         } else {
