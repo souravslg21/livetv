@@ -1,30 +1,44 @@
+import CHANNELS from './channels.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const player = document.getElementById('main-iframe');
-    const serverButtons = document.querySelectorAll('.server-btn');
+    const serversList = document.querySelector('.servers-list');
     const playerTitle = document.querySelector('.player-info h2');
 
-    // Server Switching
-    serverButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const url = btn.getAttribute('data-src');
-            const title = btn.querySelector('.server-name').textContent;
+    // Render Channels
+    function renderChannels() {
+        serversList.innerHTML = '';
+        CHANNELS.forEach((channel, index) => {
+            const btn = document.createElement('button');
+            btn.className = `server-btn ${index === 0 ? 'active' : ''}`;
+            btn.setAttribute('data-src', channel.url);
+            btn.innerHTML = `
+                <div class="icon"><i class="${channel.icon}"></i></div>
+                <span class="server-name">${channel.name}</span>
+            `;
 
-            // Update Player
-            player.src = url;
-            
-            // Update Active State
-            serverButtons.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+            btn.addEventListener('click', () => {
+                // Update Player
+                player.src = channel.url;
+                
+                // Update Active State
+                document.querySelectorAll('.server-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
 
-            // Update Title
-            playerTitle.textContent = title + " - Live Streaming";
-            
-            // Scroll Player into view on mobile
-            if (window.innerWidth < 768) {
-                player.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
+                // Update Title
+                playerTitle.textContent = channel.name + " - Live Streaming";
+                
+                // Scroll Player into view on mobile
+                if (window.innerWidth < 768) {
+                    player.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+
+            serversList.appendChild(btn);
         });
-    });
+    }
+
+    renderChannels();
 
     // Share Functionality
     window.shareSite = () => {
