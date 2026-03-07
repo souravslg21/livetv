@@ -17,12 +17,7 @@ const CHANNELS = [
         icon: "fas fa-tower-broadcast",
         category: "Sports"
     },
-    {
-        name: "Star Tamil",
-        url: "https://pasteking.u0k.workers.dev/87k9x.html?id=4468",
-        icon: "fas fa-globe",
-        category: "Regional"
-    },
+
     {
         name: "Willow Sports",
         url: "https://sportsipl.vercel.app/live/WILL2.html",
