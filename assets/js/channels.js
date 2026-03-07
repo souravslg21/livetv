@@ -24,12 +24,12 @@ const CHANNELS = [
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     }
-    // Add your own channel here:
-    // {
-    //     name: "My New Channel",
-    //     url: "YOUR_URL_HERE",
+
+    //{
+    //     name: "Jalsha Movies",
+    //     url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
     //     icon: "fas fa-tv",
-    //     category: "Misc"
+    //     category: "Movies"
     // }
 ];
 
