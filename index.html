@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity TV - Premium HD Live Streaming | T20 World Cup</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Additional SEO -->
+    <meta name="description" content="Watch live cricket matches, T20 World Cup, and premium TV channels in high quality on Clarity TV.">
+    <meta property="og:title" content="Clarity TV - Premium Live Streaming">
+    <meta property="og:image" content="assets/img/hero.png">
+    <meta name="theme-color" content="#040b1c">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="Clarity TV Logo">
+                <span>CLARITY TV</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Live</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button onclick="shareSite()" style="background: none; border: none; color: white; cursor: pointer; font-size: 1.2rem;">
+                    <i class="fas fa-share-nodes"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="assets/img/hero.png" alt="Live Cricket Tournament">
+            <div class="hero-content">
+                <span class="hero-tag">Exclusive Live</span>
+                <h1>T20 WORLD CUP 2026</h1>
+                <p>Don't miss a single ball. Watch all matches in Ultra HD with multiple commentary options.</p>
+            </div>
+        </section>
+
+        <!-- Streaming Section -->
+        <section class="player-section">
+            <div class="player-container">
+                <div class="player-main">
+                    <div class="main-player">
+                        <iframe id="main-iframe" 
+                                src="https://sportsipl.vercel.app/live/prime-hindi.html" 
+                                allow="autoplay; fullscreen; encrypted-media" 
+                                allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="player-info glass">
+                        <div class="player-title">
+                            <span class="live-badge">Live</span>
+                            <h2>PRIME HINDI - Live Streaming</h2>
+                        </div>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">
+                            Currently streaming the ICC T20 World Cup. High-performance server with zero lag.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sidebar-servers">
+                    <h3 class="section-title">CHOOSE SERVER</h3>
+                    <div class="servers-list">
+                        <button class="server-btn active" data-src="https://sportsipl.vercel.app/live/prime-hindi.html">
+                            <div class="icon"><i class="fas fa-play"></i></div>
+                            <span class="server-name">PRIME Hindi</span>
+                        </button>
+                        <button class="server-btn" data-src="https://sportsipl.vercel.app/live/prime.html">
+                            <div class="icon"><i class="fas fa-play"></i></div>
+                            <span class="server-name">PRIME English</span>
+                        </button>
+                        <button class="server-btn" data-src="https://pasteking.u0k.workers.dev/87k9x.html?id=1142">
+                            <div class="icon"><i class="fas fa-tower-broadcast"></i></div>
+                            <span class="server-name">Star Sports 1</span>
+                        </button>
+                        <button class="server-btn" data-src="https://pasteking.u0k.workers.dev/87k9x.html?id=4468">
+                            <div class="icon"><i class="fas fa-globe"></i></div>
+                            <span class="server-name">Star Tamil</span>
+                        </button>
+                        <button class="server-btn" data-src="https://sportsipl.vercel.app/live/WILL2.html">
+                            <div class="icon"><i class="fas fa-cricket-bat-ball"></i></div>
+                            <span class="server-name">Willow Sports</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Telegram Section -->
+        <div class="telegram-bar">
+            <div class="tg-info">
+                <h3>Join Our Telegram Community</h3>
+                <p>Get instant match links, daily highlights, and live score updates.</p>
+            </div>
+            <a href="https://t.me/watch_clarity" target="_blank" class="tg-btn">
+                <i class="fab fa-telegram"></i> Join Clarity TV
+            </a>
+        </div>
+
+        <!-- Categories Section -->
+        <section class="categories" style="margin-top: 3rem;">
+            <h3 class="section-title">EXPLORE MORE</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <div class="glass" style="overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
+                    <img src="assets/img/movies.png" alt="Movies" style="width: 100%; height: 180px; object-fit: cover; opacity: 0.8;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="font-size: 1.25rem;">Movies</h4>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">The latest blockbusters in HD quality.</p>
+                    </div>
+                </div>
+                <div class="glass" style="overflow: hidden; cursor: pointer; transition: transform 0.3s ease;">
+                    <img src="assets/img/shows.png" alt="TV Shows" style="width: 100%; height: 180px; object-fit: cover; opacity: 0.8;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="font-size: 1.25rem;">TV Shows</h4>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">Exclusive series and trending shows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
