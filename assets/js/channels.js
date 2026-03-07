@@ -23,14 +23,14 @@ const CHANNELS = [
         url: "https://sportsipl.vercel.app/live/WILL2.html",
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
-    }
+    },
 
-    //{
-    //     name: "Jalsha Movies",
-    //     url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
-    //     icon: "fas fa-tv",
-    //     category: "Movies"
-    // }
+    {
+        name: "Jalsha Movies",
+        url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
+        icon: "fas fa-tv",
+        category: "Movies"
+    }
 ];
 
 export default CHANNELS;
