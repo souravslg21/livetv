@@ -1,5 +1,11 @@
 const CHANNELS = [
     {
+        name: "star sports live",
+        url: "https://starsportshindiii.pages.dev/index.m3u8",
+        icon: "fas fa-cricket-bat-ball",
+        category: "Sports"
+    },
+    {
         name: "PRIME Hindi",
         url: "https://sportsipl.vercel.app/live/prime-hindi.html",
         icon: "fas fa-play",
@@ -25,8 +31,8 @@ const CHANNELS = [
         category: "Sports"
     },
     {
-        name: "star sports live",
-        url: "https://m.mxonlive.xyz/live/16559/roar/edge2/star-sports-1.m3u8",
+        name: "star sports 2",
+        url: "http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8",
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     },
