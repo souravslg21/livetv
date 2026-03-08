@@ -1,16 +1,10 @@
 const CHANNELS = [
-    {
-        name: "star sports live",
-        url: "https://starsportshindiii.pages.dev/index.m3u8",
-        icon: "fas fa-cricket-bat-ball",
-        category: "Sports"
-    },
-    {
-        name: "PRIME Hindi",
-        url: "https://sportsipl.vercel.app/live/prime-hindi.html",
-        icon: "fas fa-play",
-        category: "Sports"
-    },
+{
+    name: "PRIME Hindi",
+    url: "https://sportsipl.vercel.app/live/prime-hindi.html",
+    icon: "fas fa-play",
+    category: "Sports"
+},
     {
         name: "PRIME English",
         url: "https://sportsipl.vercel.app/live/prime.html",
@@ -30,12 +24,7 @@ const CHANNELS = [
         icon: "fas fa-cricket-bat-ball",
         category: "Sports"
     },
-    {
-        name: "star sports 2",
-        url: "https://starsportshindiii.pages.dev/index.m3u8",
-        icon: "fas fa-cricket-bat-ball",
-        category: "Sports"
-    },
+
     {
         name: "Jalsha Movies",
         url: "https://pasteking.u0k.workers.dev/87k9x.html?id=1122",
